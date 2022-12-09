@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Wyk09.MessageBoxEp
+namespace Wyk09.Suwak
 {
     internal static class Program
     {
@@ -16,9 +16,7 @@ namespace Wyk09.MessageBoxEp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            var form = new Form1();
-            
-            Application.Run(form);
+            Application.Run(new Form1());
         }
     }
 }

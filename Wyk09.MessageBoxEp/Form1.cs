@@ -15,6 +15,7 @@ namespace Wyk09.MessageBoxEp
         public Form1()
         {
             InitializeComponent();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -48,7 +49,8 @@ namespace Wyk09.MessageBoxEp
                 }
             }
 
-
+            this.Hide();
+            
         }
     }
 }

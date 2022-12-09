@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{646E0A40-F08A-4B8A-99AF-B0DEF6C237DE}</ProjectGuid>
+    <ProjectGuid>{C1321BE9-FA04-49BF-B947-18469D2F36FD}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Wyk09.MessageBoxEp</RootNamespace>
-    <AssemblyName>Wyk09.MessageBoxEp</AssemblyName>
+    <RootNamespace>Wyk09.Suwak</RootNamespace>
+    <AssemblyName>Wyk09.Suwak</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -78,12 +78,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Wyk09.ControlLib\Wyk09.ControlLib.csproj">
-      <Project>{BC98805E-EA4D-4091-9CD2-79709741651F}</Project>
-      <Name>Wyk09.ControlLib</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

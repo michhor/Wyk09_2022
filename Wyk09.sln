@@ -5,6 +5,10 @@ VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wyk09.MessageBoxEp", "Wyk09.MessageBoxEp\Wyk09.MessageBoxEp.csproj", "{646E0A40-F08A-4B8A-99AF-B0DEF6C237DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wyk09.ControlLib", "Wyk09.ControlLib\Wyk09.ControlLib.csproj", "{BC98805E-EA4D-4091-9CD2-79709741651F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wyk09.Suwak", "Wyk09.Suwak\Wyk09.Suwak.csproj", "{C1321BE9-FA04-49BF-B947-18469D2F36FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{646E0A40-F08A-4B8A-99AF-B0DEF6C237DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{646E0A40-F08A-4B8A-99AF-B0DEF6C237DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{646E0A40-F08A-4B8A-99AF-B0DEF6C237DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC98805E-EA4D-4091-9CD2-79709741651F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC98805E-EA4D-4091-9CD2-79709741651F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC98805E-EA4D-4091-9CD2-79709741651F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC98805E-EA4D-4091-9CD2-79709741651F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1321BE9-FA04-49BF-B947-18469D2F36FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1321BE9-FA04-49BF-B947-18469D2F36FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1321BE9-FA04-49BF-B947-18469D2F36FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1321BE9-FA04-49BF-B947-18469D2F36FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
